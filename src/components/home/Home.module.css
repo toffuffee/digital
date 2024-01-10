@@ -1,0 +1,54 @@
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.banner {
+    background-color: #0382C7;
+}
+
+.bannerText{
+    padding-top: 120px;
+    text-align: left;
+    width: 100%;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    max-width: 400px;
+    color: white;
+}
+
+.bannerImg{
+    background-image: url("../../assets/main.png");
+    max-width: 650px;
+    height: 390px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.digitalInfo{
+    margin-top: 25px;
+}
+
+.digitalInfoTitle{
+    line-height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.tabs{
+    max-width: 500px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
