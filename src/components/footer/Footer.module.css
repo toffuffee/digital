@@ -1,0 +1,38 @@
+.footer {
+  background-color: white;
+  height: 100px;
+  margin-top: 80px;
+}
+
+.footerContent {
+  max-width: 1192px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+.footerLogo {
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../../assets/digital-3.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  max-width: 200px;
+  width: 100%;
+  height: 48px;
+  background-position-y: -78px;
+  cursor: pointer;
+}
+
+.linkLogo {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.footerText {
+  color: #191919;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  text-align: center;
+  font-size: 14px;
+}

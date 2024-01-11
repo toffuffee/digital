@@ -1,54 +1,114 @@
-.container {
-    max-width: 1280px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 40px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.carousel {
+  padding-top: 50px;
 }
 
-.banner {
-    background-color: #0382C7;
+body {
+  background-color: #f8f8f8;
 }
 
-.bannerText{
-    padding-top: 120px;
-    text-align: left;
-    width: 100%;
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    font-weight: bold;
-    font-size: 32px;
-    max-width: 400px;
-    color: white;
+.css-1ps6pg7-MuiPaper-root {
+  display: none;
 }
 
-.bannerImg{
-    background-image: url("../../assets/main.png");
-    max-width: 650px;
-    height: 390px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
+.containerMain {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+  width: 100%;
 }
 
-.digitalInfo{
-    margin-top: 25px;
+.boxes {
+  display: flex;
+  justify-content: center;
+  margin-top: -95px;
+  z-index: 2;
+  position: sticky;
 }
 
-.digitalInfoTitle{
-    line-height: 60px;
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+.paperText {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(72, 74, 71);
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.tabs{
-    max-width: 500px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
+.paperDesc {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  color: rgb(72, 74, 71);
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.paperBtn {
+  width: 110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.paperImg {
+  background-image: url("../../assets/paperimg.jpg");
+  width: 300px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: -140px;
+}
+
+.paperFullText {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 55px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.boxesSecondBlock {
+  height: 385px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+  width: 100%;
+  box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2),
+    0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactBanner {
+  min-height: 200px;
+  margin-top: 50px;
+  background-color: red;
+  background-image: url("../../assets/mainbanner.jpg");
+  box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2),
+    0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position-y: -150px;
+}
+
+.contactBannerText {
+  text-align: center;
+  color: white;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 60px;
+}
+
+.contactBannerBtn {
+  width: 122px;
+  margin-left: auto;
+  margin-right: auto;
 }

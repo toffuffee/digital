@@ -1,0 +1,54 @@
+.carouselText {
+  color: #0382c7;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  max-width: 600px;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.carouselDesc {
+  color: #484a47;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 25px;
+  font-family: 100;
+  max-width: 600px;
+  width: 100%;
+}
+
+.carouselBlock {
+  padding-top: 80px;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.carouselBlockItem {
+}
+
+.carouselBlockOneImg {
+  background-image: url("../../assets/carouselmain.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 500px;
+}
+
+.carouselBlockTwoImg {
+  background-image: url("../../assets/carouselmain2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 500px;
+  background-position-y: 40px;
+}
+
+.aboutButton {
+  width: 100px;
+}
+
+.contactButton {
+}

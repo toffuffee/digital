@@ -7,6 +7,7 @@ import Contact from "./components/contact/Contact";
 import Help from "./components/help/Help";
 import Login from "./components/signin/SignIn";
 import SignUp from "./components/signup/SignUp";
+import Footer from "./components/footer/Footer";
 import "./App.css";
 import "normalize.css";
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="/sign-in" element={<Login />} />
           <Route path="/sign-up" element={<SignUp />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
