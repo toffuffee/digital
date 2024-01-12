@@ -39,7 +39,6 @@
 }
 
 .digitalInfoTitle {
-  line-height: 60px;
   font-size: 25px;
   font-weight: bold;
   text-align: center;
@@ -82,4 +81,32 @@
   margin-top: 10px;
   padding-left: 5px;
   padding-right: 5px;
+}
+
+@media (max-width: 1049px) {
+  .bannerText {
+    padding-top: 0;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .container {
+    height: 607px;
+  }
+}
+
+@media (max-width: 579px) {
+  .bannerImg {
+    display: none;
+  }
+  .container {
+    padding-top: 100px;
+    min-height: 170px;
+    height: 100%;
+  }
+}
+
+@media (max-width: 299px) {
+  .ecosystemFlex {
+    width: 150px;
+  }
 }

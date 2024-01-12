@@ -26,9 +26,6 @@
   flex-wrap: wrap;
 }
 
-.carouselBlockItem {
-}
-
 .carouselBlockOneImg {
   background-image: url("../../assets/carouselmain.png");
   background-size: cover;
@@ -50,5 +47,71 @@
   width: 100px;
 }
 
-.contactButton {
+.carouselBlockItemTwo {
+}
+
+@media (max-width: 1302px) {
+  .carouselBlockItemOne {
+    display: none;
+  }
+  .carouselBlockItemTwo {
+    display: none;
+  }
+}
+
+@media (max-width: 720px) {
+  .carouselText {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 595px) {
+  .carouselText {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 591px) {
+  .carouselText {
+    font-size: 30px;
+  }
+  .carouselDesc {
+    font-size: 20px;
+  }
+  .carouselMain {
+    max-height: 400px;
+  }
+  .aboutButton {
+    margin-top: 5px !important;
+  }
+  .contactButton {
+    margin-top: 5px !important;
+  }
+}
+
+@media (max-width: 407px) {
+  .carouselBlock {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 395px) {
+  .carouselBlock {
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 395px) {
+  .carouselDesc {
+    display: none;
+  }
+  .carouselBlock {
+    padding-top: 120px;
+  }
+  .aboutButton {
+    margin-top: 10px !important;
+  }
+  .contactButton {
+    margin-top: 10px !important;
+  }
 }

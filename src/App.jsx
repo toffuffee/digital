@@ -1,31 +1,36 @@
 import { useState, useRef } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Help from "./components/help/Help";
-import Login from "./components/signin/SignIn";
+import SignIn from "./components/signin/SignIn";
 import SignUp from "./components/signup/SignUp";
 import Footer from "./components/footer/Footer";
+import Profile from "./components/profile/Profile";
+import { AuthProvider } from "./components/authContext/AuthContext";
 import "./App.css";
 import "normalize.css";
 
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <Header />
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route exact path="/contact" element={<Contact />} />
-          <Route path="/help" element={<Help />} />
-          <Route path="/sign-in" element={<Login />} />
-          <Route path="/sign-up" element={<SignUp />} />
-        </Routes>
-        <Footer />
-      </BrowserRouter>
+      <Router>
+        <AuthProvider>
+          <Header />
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route exact path="/contact" element={<Contact />} />
+            <Route path="/help" element={<Help />} />
+            <Route path="/sign-in" element={<SignIn />} />
+            <Route path="/sign-up" element={<SignUp />} />
+            <Route path="/profile" element={<Profile />} />
+          </Routes>
+          <Footer />
+        </AuthProvider>
+      </Router>
     </>
   );
 }

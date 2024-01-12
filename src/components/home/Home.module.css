@@ -11,8 +11,6 @@ body {
 }
 
 .containerMain {
-  padding-left: 50px;
-  padding-right: 50px;
   margin-left: auto;
   margin-right: auto;
   max-width: 1280px;
@@ -111,4 +109,167 @@ body {
   width: 122px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.solutionsContainer {
+  height: 100%;
+  max-width: 900px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.solutionsTitle {
+  margin-top: 50px;
+  color: rgb(72, 74, 71);
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 35px;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.solutionsFlex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 35px;
+}
+
+.solutionsBlock {
+  width: 240px;
+  height: 275px;
+}
+
+.solutionsImgOne {
+  border-top: 3px solid #50009b;
+  background-image: url("../../assets/Connecting-to-the-cloud-1.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.solutionsImgTwo {
+  border-top: 3px solid #484a47;
+  background-image: url("../../assets/Connecting-your-enterprise-network-2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.solutionsImgThree {
+  border-top: 3px solid #ffc43d;
+  background-image: url("../../assets/Hybrid-workforce-Icon-1.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.solutionsText {
+  margin-top: 10px;
+  color: rgb(72, 74, 71);
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+@media (max-width: 1082px) {
+  .boxes {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 1059px) {
+  .boxes {
+    max-width: 600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 899px) {
+  .paperImg {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .boxesSecondBlock {
+    box-shadow: none;
+  }
+  .boxesSecond {
+    margin-top: 50px;
+    min-height: 800px;
+  }
+  .paperFullText {
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .paperDesc {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 867px) {
+  .contactBannerText {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 479px) {
+  .solutionsFlex {
+    max-width: 250px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 464px) {
+  .contactBannerText {
+    font-size: 20px;
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 315px) {
+  .boxesSecond {
+    min-height: 900px;
+  }
+  .solutionsImgOne {
+    scale: 0.7;
+  }
+  .solutionsImgTwo {
+    scale: 0.7;
+  }
+  .solutionsImgThree {
+    scale: 0.7;
+  }
+  .solutionsText {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 275px) {
+  .boxesSecond {
+    min-height: 1000px;
+  }
+}
+
+@media (max-width: 253px) {
+  .contactBannerText {
+    padding-top: 25px;
+  }
 }

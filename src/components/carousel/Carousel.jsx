@@ -1,6 +1,7 @@
 import React from "react";
 import Carousel from "react-material-ui-carousel";
 import styles from "./Carousel.module.css";
+import { Link } from "react-router-dom";
 import { Paper, Button } from "@mui/material";
 
 function Carouselcont(props) {
@@ -29,16 +30,17 @@ function Carouselcont(props) {
               your business, all with the same extraordinary customer
               experience.
             </div>
-            <Button
-              href="/about"
-              sx={{ marginTop: "30px" }}
-              variant="contained"
-              className={styles.aboutButton}
-            >
-              About
-            </Button>
+            <Link to="/about">
+              <Button
+                sx={{ marginTop: "30px" }}
+                variant="contained"
+                className={styles.aboutButton}
+              >
+                About
+              </Button>
+            </Link>
           </div>
-          <div className={styles.carouselBlockItem}>
+          <div className={styles.carouselBlockItemOne}>
             <div className={styles.carouselBlockOneImg}></div>
           </div>
         </div>
@@ -56,16 +58,17 @@ function Carouselcont(props) {
               your business, all with the same extraordinary customer
               experience.
             </div>
-            <Button
-              href="/contact"
-              sx={{ marginTop: "30px" }}
-              variant="contained"
-              className={styles.contactButton}
-            >
-              Contact
-            </Button>
+            <Link to="/contact">
+              <Button
+                sx={{ marginTop: "30px" }}
+                variant="contained"
+                className={styles.contactButton}
+              >
+                Contact
+              </Button>
+            </Link>
           </div>
-          <div className={styles.carouselBlockItem}>
+          <div className={styles.carouselBlockItemTwo}>
             <div className={styles.carouselBlockTwoImg}></div>
           </div>
         </div>
@@ -75,6 +78,7 @@ function Carouselcont(props) {
 
   return (
     <Carousel
+      className={styles.carouselMain}
       navButtonsAlwaysVisible={true}
       indicators={false}
       duration={700}

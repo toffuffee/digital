@@ -1,5 +1,6 @@
 import { useState, useRef } from "react";
 import Button from "@mui/material/Button";
+import { Link } from "react-router-dom";
 import styles from "./Footer.module.css";
 
 function Footer() {
