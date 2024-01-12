@@ -1,0 +1,198 @@
+@prefix : <http://www.semanticweb.org/pojar/ontologies/2023/9//> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/pojar/ontologies/2023/9//> .
+
+<http://www.semanticweb.org/pojar/ontologies/2023/9/> rdf:type owl:Ontology .
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#Assistive_Technologies
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#Assistive_Technologies> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#Digital_Infrastructure> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#Big_Data_and_Data_Analytics
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#Big_Data_and_Data_Analytics> rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#Data_Center_and_Servers> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#Blockchain
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#Blockchain> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#Data_Center_and_Servers> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#CRM
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#CRM> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#Software_and_Application> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#Cloud_Computing
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#Cloud_Computing> rdf:type owl:Class ;
+                                                                      rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#Digital_Infrastructure> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#Connectivity
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#Connectivity> rdf:type owl:Class ;
+                                                                   rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#Digital_Infrastructure> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#Cybersecurity
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#Cybersecurity> rdf:type owl:Class ;
+                                                                    rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#Digital_Infrastructure> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#Data_Center_and_Servers
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#Data_Center_and_Servers> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#Digital_Infrastructure> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#Digital_Infrastructure
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#Digital_Infrastructure> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#Drive
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#Drive> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#Software_and_Application> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#ERP
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#ERP> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#Software_and_Application> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#Edge_Computing
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#Edge_Computing> rdf:type owl:Class ;
+                                                                     rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#Data_Center_and_Servers> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#Hardware
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#Hardware> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#Digital_Infrastructure> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#Internet_Backbone
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#Internet_Backbone> rdf:type owl:Class ;
+                                                                        rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#Connectivity> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#Mail
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#Mail> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#Software_and_Application> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#Metaverse
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#Metaverse> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#3D_Environment,_Immersive_Technologies_and_Extended_Reality_(XR)> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#Networking
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#Networking> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#Connectivity> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#Quantum_Computing
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#Quantum_Computing> rdf:type owl:Class ;
+                                                                        rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#Assistive_Technologies> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#SSO
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#SSO> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#Cybersecurity> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#Software_and_Application
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#Software_and_Application> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#Digital_Infrastructure> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#Spatial_Computing
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#Spatial_Computing> rdf:type owl:Class ;
+                                                                        rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#3D_Environment,_Immersive_Technologies_and_Extended_Reality_(XR)> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#Storage
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#Storage> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#Data_Center_and_Servers> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#eKYC
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#eKYC> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#Cybersecurity> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#3D_Environment,_Immersive_Technologies_and_Extended_Reality_(XR)
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#3D_Environment,_Immersive_Technologies_and_Extended_Reality_(XR)> rdf:type owl:Class ;
+                                                                                                                       rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#Digital_Infrastructure> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#5G_and_Broadband_Networks
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#5G_and_Broadband_Networks> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#Connectivity> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#Adaptive_Artificial_Intelligence_(Adapt_Ai)
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#Adaptive_Artificial_Intelligence_(Adapt_Ai)> rdf:type owl:Class ;
+                                                                                                  rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#Artificial_Intelligence_(Ai)> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#Ambient_Intelligence_(AMi)
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#Ambient_Intelligence_(AMi)> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#Adaptive_Artificial_Intelligence_(Adapt_Ai)> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#Artificial_Intelligence_(Ai)
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#Artificial_Intelligence_(Ai)> rdf:type owl:Class ;
+                                                                                   rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#Assistive_Technologies>,
+                                                                                                   <http://www.semanticweb.org/pojar/ontologies/2023/9/#Artificial_Intelligence_of_Things_(AiOT)> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#Artificial_Intelligence_of_Things_(AiOT)
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#Artificial_Intelligence_of_Things_(AiOT)> rdf:type owl:Class ;
+                                                                                               rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#Ambient_Intelligence_(AMi)>,
+                                                                                                                <http://www.semanticweb.org/pojar/ontologies/2023/9/#Internet_of_Things_(iOT)>,
+                                                                                                                <http://www.semanticweb.org/pojar/ontologies/2023/9/#Artificial_Intelligence_(Ai)> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#Augmented_Reality_(AR)
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#Augmented_Reality_(AR)> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#3D_Environment,_Immersive_Technologies_and_Extended_Reality_(XR)> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#Digital_twin_of_a_customer_(DToC)
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#Digital_twin_of_a_customer_(DToC)> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#Digital_twin_of_a_person_(DToP)> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#Digital_twin_of_a_person_(DToP)
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#Digital_twin_of_a_person_(DToP)> rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#Metaverse> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#Internet_of_Things_(iOT)
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#Internet_of_Things_(iOT)> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#Assistive_Technologies>,
+                                                                                                <http://www.semanticweb.org/pojar/ontologies/2023/9/#Artificial_Intelligence_of_Things_(AiOT)> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#Mixed_Reality_(MR)
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#Mixed_Reality_(MR)> rdf:type owl:Class ;
+                                                                         rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#3D_Environment,_Immersive_Technologies_and_Extended_Reality_(XR)> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#VOiP_-_Video/voice
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#VOiP_-_Video/voice> rdf:type owl:Class ;
+                                                                         rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#Software_and_Application> .
+
+
+###  http://www.semanticweb.org/pojar/ontologies/2023/9/#Virtual_Reality_(VR)
+<http://www.semanticweb.org/pojar/ontologies/2023/9/#Virtual_Reality_(VR)> rdf:type owl:Class ;
+                                                                           rdfs:subClassOf <http://www.semanticweb.org/pojar/ontologies/2023/9/#3D_Environment,_Immersive_Technologies_and_Extended_Reality_(XR)> .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi

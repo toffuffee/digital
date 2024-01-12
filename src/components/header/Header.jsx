@@ -77,6 +77,19 @@ function Header() {
               Main
             </Button>
           </Link>
+          <Link className={styles.linkItem} to="/graph">
+            <Button
+              className={styles.headerItem}
+              size="small"
+              sx={{
+                "@media (max-width: 369px)": {
+                  marginRight: "0!important",
+                },
+              }}
+            >
+              Graph
+            </Button>
+          </Link>
           <Link className={styles.linkItem} to="/about">
             <Button
               className={styles.headerItem}

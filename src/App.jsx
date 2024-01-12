@@ -9,6 +9,7 @@ import SignIn from "./components/signin/SignIn";
 import SignUp from "./components/signup/SignUp";
 import Footer from "./components/footer/Footer";
 import Profile from "./components/profile/Profile";
+import Graph from "./components/graph/GraphPage";
 import { AuthProvider } from "./components/authContext/AuthContext";
 import "./App.css";
 import "normalize.css";
@@ -27,6 +28,7 @@ function App() {
             <Route path="/sign-in" element={<SignIn />} />
             <Route path="/sign-up" element={<SignUp />} />
             <Route path="/profile" element={<Profile />} />
+            <Route path="/graph" element={<Graph />} />
           </Routes>
           <Footer />
         </AuthProvider>
